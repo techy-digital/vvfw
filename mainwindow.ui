@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>680</width>
-    <height>580</height>
+    <width>784</width>
+    <height>645</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -23,8 +23,8 @@
    <widget class="QWidget" name="verticalLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>10</y>
+      <x>120</x>
+      <y>50</y>
       <width>127</width>
       <height>521</height>
      </rect>
@@ -124,7 +124,7 @@ Component</string>
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>10</y>
+      <y>50</y>
       <width>91</width>
       <height>521</height>
      </rect>
@@ -177,8 +177,8 @@ Component</string>
    <widget class="QTreeWidget" name="EvaEnvTW">
     <property name="geometry">
      <rect>
-      <x>230</x>
-      <y>0</y>
+      <x>270</x>
+      <y>40</y>
       <width>141</width>
       <height>91</height>
      </rect>
@@ -207,8 +207,8 @@ Component</string>
    <widget class="QTreeWidget" name="EvaTypeTW">
     <property name="geometry">
      <rect>
-      <x>230</x>
-      <y>90</y>
+      <x>270</x>
+      <y>130</y>
       <width>141</width>
       <height>91</height>
      </rect>
@@ -232,8 +232,8 @@ Component</string>
    <widget class="QTreeWidget" name="TypeCompTW">
     <property name="geometry">
      <rect>
-      <x>230</x>
-      <y>170</y>
+      <x>270</x>
+      <y>210</y>
       <width>141</width>
       <height>91</height>
      </rect>
@@ -252,6 +252,21 @@ Component</string>
      <property name="text">
       <string>Hardware</string>
      </property>
+     <item>
+      <property name="text">
+       <string>Sensor</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>MCU</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Camera</string>
+      </property>
+     </item>
     </item>
     <item>
      <property name="text">
@@ -262,8 +277,8 @@ Component</string>
    <widget class="QTreeWidget" name="EvaToolTW">
     <property name="geometry">
      <rect>
-      <x>230</x>
-      <y>260</y>
+      <x>270</x>
+      <y>300</y>
       <width>141</width>
       <height>91</height>
      </rect>
@@ -287,8 +302,8 @@ Component</string>
    <widget class="QTreeWidget" name="EvaStageTW">
     <property name="geometry">
      <rect>
-      <x>230</x>
-      <y>350</y>
+      <x>270</x>
+      <y>390</y>
       <width>141</width>
       <height>91</height>
      </rect>
@@ -312,8 +327,8 @@ Component</string>
    <widget class="QTreeWidget" name="LogicTW">
     <property name="geometry">
      <rect>
-      <x>230</x>
-      <y>440</y>
+      <x>270</x>
+      <y>480</y>
       <width>141</width>
       <height>91</height>
      </rect>
@@ -342,10 +357,10 @@ Component</string>
    <widget class="QGroupBox" name="groupBox">
     <property name="geometry">
      <rect>
-      <x>490</x>
-      <y>50</y>
+      <x>630</x>
+      <y>30</y>
       <width>111</width>
-      <height>281</height>
+      <height>451</height>
      </rect>
     </property>
     <property name="title">
@@ -355,9 +370,9 @@ Component</string>
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>30</y>
+       <y>40</y>
        <width>90</width>
-       <height>30</height>
+       <height>61</height>
       </rect>
      </property>
      <property name="font">
@@ -367,7 +382,7 @@ Component</string>
       </font>
      </property>
      <property name="autoFillBackground">
-      <bool>true</bool>
+      <bool>false</bool>
      </property>
      <property name="styleSheet">
       <string notr="true">background-color: rgb(238, 238, 236);
@@ -388,9 +403,9 @@ color: rgb(78, 154, 6);</string>
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>70</y>
+       <y>110</y>
        <width>90</width>
-       <height>30</height>
+       <height>61</height>
       </rect>
      </property>
      <property name="font">
@@ -421,9 +436,9 @@ color: rgb(78, 154, 6);</string>
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>110</y>
+       <y>180</y>
        <width>90</width>
-       <height>30</height>
+       <height>61</height>
       </rect>
      </property>
      <property name="font">
@@ -454,9 +469,9 @@ color: rgb(78, 154, 6);</string>
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>150</y>
+       <y>250</y>
        <width>90</width>
-       <height>30</height>
+       <height>61</height>
       </rect>
      </property>
      <property name="font">
@@ -487,9 +502,9 @@ color: rgb(78, 154, 6);</string>
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>190</y>
+       <y>320</y>
        <width>90</width>
-       <height>30</height>
+       <height>61</height>
       </rect>
      </property>
      <property name="font">
@@ -520,9 +535,9 @@ color: rgb(78, 154, 6);</string>
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>230</y>
+       <y>390</y>
        <width>90</width>
-       <height>30</height>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -553,8 +568,8 @@ color: rgb(78, 154, 6);</string>
    <widget class="QPushButton" name="GenerateXMLPB">
     <property name="geometry">
      <rect>
-      <x>480</x>
-      <y>400</y>
+      <x>620</x>
+      <y>500</y>
       <width>125</width>
       <height>50</height>
      </rect>
@@ -569,13 +584,26 @@ color: rgb(78, 154, 6);</string>
      <string>Generate XML</string>
     </property>
    </widget>
+   <widget class="QPlainTextEdit" name="FileNameTE">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>560</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="plainText">
+     <string>Untitled.xml</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>680</width>
+     <width>784</width>
      <height>21</height>
     </rect>
    </property>
